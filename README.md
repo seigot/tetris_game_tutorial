@@ -46,6 +46,6 @@ class
 ```
 
 参考
-[【初心者向け】無料でPythonの基本文法を5時間で学ぼう！](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)
-[Python3基礎文法](https://qiita.com/Fendo181/items/a934e4f94021115efb2e)
-[初心者がPythonの練習](https://qiita.com/pugiemonn/items/c98e4e24daa177975240)
+[【初心者向け】無料でPythonの基本文法を5時間で学ぼう！](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)<br>
+[Python3基礎文法](https://qiita.com/Fendo181/items/a934e4f94021115efb2e)<br>
+[初心者がPythonの練習](https://qiita.com/pugiemonn/items/c98e4e24daa177975240)<br>
