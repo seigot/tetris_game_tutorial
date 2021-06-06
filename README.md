@@ -5,12 +5,24 @@
 <br>
 プルリクエスト募集中です。<br>
 <br>
-今のところ記載予定のもの。<br>
-<br>
+## git 
+最低限以下を使えれば問題ないはず。
 
 ```
-git
+git add
+git commit
+git push
+git pull
 ```
+
+参考<br>
+[いまさらだけどGitを基本から分かりやすくまとめてみた](https://qiita.com/gold-kou/items/7f6a3b46e2781b0dd4a0)<br>
+[【メモ】GitHubでgit clone〜git pushまで](https://qiita.com/nt-7/items/c5ea999a2638e03ee418)<br>
+[[git] 基本操作（clone、add、commit、pushなど）を覚えて、開発出来るようになる](https://www.yoheim.net/blog.php?q=20140104)<br>
+[【Git】基本コマンド](https://qiita.com/konweb/items/621722f67fdd8f86a017)
+
+## python
+最低限以下を使えれば問題ないはず。
 
 ```
 print
