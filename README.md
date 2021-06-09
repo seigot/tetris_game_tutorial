@@ -24,27 +24,28 @@ git pull
 ## python
 最低限以下を使えれば問題ないはず。
 
-```
-print
-演算子（*,/,+.-）
-加算代入演算子（+=）、減算代入演算子（-=）
-max,min,sum
-論理演算子（and, or）
-括弧 ()
-if文
-list型
-辞書型
-tuple型
-len
-for x in [1,2,3,4]:
-for x0 in for range(2,8)
-continue
-3種類のrange,(range(1,3),range(height - 1, 0, -1):,range(width),)
-while
-関数
-ライブラリ
-class
-```
+
+[print](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%96%87%E5%AD%97%E5%88%97%E3%81%A8%E6%95%B0%E5%80%A4%E3%81%AE%E9%81%95%E3%81%84)<br>
+[演算子（*,/,+.-）](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%95%B0%E5%80%A4)<br>
+[加算代入演算子（+=）、減算代入演算子（-=）](https://techacademy.jp/magazine/24516)<br>
+[max,min,sum](https://himibrog.com/python-min-max-sum/)<br>
+[論理演算子（and, or）](https://www.python.jp/train/logical_oper/index.html)<br>
+[括弧 ()](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%95%B0%E5%80%A4)<br>
+[if文](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%9D%A1%E4%BB%B6%E5%88%86%E5%B2%90-if%E6%96%87)<br>
+[演算子](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%9D%A1%E4%BB%B6%E5%BC%8F%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9)<br>
+[list型](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E3%83%AA%E3%82%B9%E3%83%88%E5%9E%8B)<br>
+[辞書型](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E8%BE%9E%E6%9B%B8%E5%9E%8B)<br>
+[tuple型](https://www.python.jp/train/tuple/index.html)<br>
+[len](https://qiita.com/Macchino5/items/a64347f9e832406d3c24)<br>
+[for x in [1,2,3,4]:](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#for%E6%96%87)<br>
+[for x0 in for range(2,8)](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#for%E6%96%87)<br>
+[continue](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#for%E6%96%87)<br>
+[3種類のrange,(range(1,3),range(height - 1, 0, -1):,range(width),)](https://udemy.benesse.co.jp/development/python-work/python-for.html)<br>
+[while](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#while%E6%96%87)<br>
+[関数](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E9%96%A2%E6%95%B0%E3%81%A8%E3%81%AF)<br>
+[ライブラリ](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA)<br>
+[class](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91)<br>
+
 
 参考
 [【初心者向け】無料でPythonの基本文法を5時間で学ぼう！](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)<br>
