@@ -32,6 +32,7 @@ max,min,sum
 論理演算子（and, or）
 括弧 ()
 if文
+list型
 辞書型
 tuple型
 len
