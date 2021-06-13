@@ -1,29 +1,36 @@
 # tetris_game_tutorial
 
 [tetris_game](https://github.com/seigot/tetris_game)プログラミング用のチュートリアルです。<br>
-このチュートリアルを理解すれば[tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)](https://github.com/seigot/tetris_game/blob/master/doc/files/block_controller_sample.md)が読めるようになることを目指していす。<br>
+このチュートリアルを理解すれば[tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)](https://github.com/seigot/tetris_game/blob/master/doc/files/block_controller_sample.md)が読めるようになることを目指しています。<br>
 <br>
 プルリクエスト募集中です。<br>
 <br>
 ## git 
-最低限以下を使えれば問題ないはず。
+gitはソフトウェアのバージョン管理システムです。<br>
+github上での`tetris_game`用ソースコード管理をコマンドラインから操作することが可能です。<br>
+多くのコマンドが存在しますが、今回は最低限以下を使えれば問題ないはず。<br>
 
 ```
-git add
-git commit
-git push
-git pull
+git add (ファイル名)   # 指定したファイルを変更対象に登録
+git commit           # addしたファイルを登録する（ローカルのgitに登録する）
+git push             # 変更を登録する（リモートのgitに登録する）
+git pull             # 変更を取り込む
 ```
 
-参考<br>
+上記コマンドの練習をする場合、以下の練習用リポジトリの１．〜３．を実施してみてください。<br>
+[test_pull_request](https://github.com/seigot/test_pull_request)<br>
+その他、詳しくは参考サイトを参照下さい。<br>
+
+#### 参考
 [いまさらだけどGitを基本から分かりやすくまとめてみた](https://qiita.com/gold-kou/items/7f6a3b46e2781b0dd4a0)<br>
 [【メモ】GitHubでgit clone〜git pushまで](https://qiita.com/nt-7/items/c5ea999a2638e03ee418)<br>
 [[git] 基本操作（clone、add、commit、pushなど）を覚えて、開発出来るようになる](https://www.yoheim.net/blog.php?q=20140104)<br>
 [【Git】基本コマンド](https://qiita.com/konweb/items/621722f67fdd8f86a017)
 
 ## python
-最低限以下を使えれば問題ないはず。
-
+pythonはプログラミング言語の１つです。<br>
+研究用途でも用いられる事が多く、サポートも豊富であり、プロトタイプ開発などに便利です。<br>
+文法に関しても色々ハマり所はありますが、今回は最低限以下を使えれば問題ないはず。<br>
 
 [print](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%96%87%E5%AD%97%E5%88%97%E3%81%A8%E6%95%B0%E5%80%A4%E3%81%AE%E9%81%95%E3%81%84)<br>
 [演算子（*,/,+.-）](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%95%B0%E5%80%A4)<br>
@@ -46,8 +53,14 @@ git pull
 [ライブラリ](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA)<br>
 [class](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91)<br>
 
+その他、詳しくは参考サイトを参照下さい。<br>
 
-参考
+#### 参考
 [【初心者向け】無料でPythonの基本文法を5時間で学ぼう！](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)<br>
+[Pythonの基礎基本を30分ですべて終わらせる](https://qiita.com/nol_miryuu/items/33fcdb1c4a656644ffe2)
 [Python3基礎文法](https://qiita.com/Fendo181/items/a934e4f94021115efb2e)<br>
 [初心者がPythonの練習](https://qiita.com/pugiemonn/items/c98e4e24daa177975240)<br>
+
+## `tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)`での使用例
+何か書くかも
+
