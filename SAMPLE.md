@@ -6,16 +6,14 @@
 `tetris_game`ではプログラム作成時の補助のため、ブロックの動きや、確認用文字列をデフォルトで出力しています。<br>
 
 ```
-print(nextMove)
-print("###### SAMPLE CODE ######")
+print(nextMove)                        # ブロックの動きを出力
+print("###### SAMPLE CODE ######")     # 文字列を出力
 ```
 
 大量データをそのまま出力すると見づらいため、`pprint(pretty-print`で出力を整形している部分もあります。
 
 ```
-# print GameStatus
-print("=================================================>")
-pprint.pprint(GameStatus, width = 61, compact = True)
+pprint.pprint(GameStatus, width = 61, compact = True)  # GameStatusを整形して出力
 ```
 
 ## `演算子（*,/,+.-）`
