@@ -5,6 +5,19 @@
 <br>
 プルリクエスト募集中です。<br>
 <br>
+
+## エディタ
+
+世の中には色々なエディタがありますが、最終的には自分の好みで選択するのがよさそうです。<br>
+
+|  エディタ名  |  特徴  |  備考  |
+| ---- | ---- | ---- |
+|  vim  |  -  |  -  |
+|  vi  |  -  |  -  |
+|  emacs  |  -  |  -  |
+|  vscode  |  -  |  -  |
+|  その他  |  -  |  -  |
+
 ## git 
 gitはソフトウェアのバージョン管理システムです。<br>
 github上での`tetris_game`用ソースコード管理をコマンドラインから操作することが可能です。<br>
@@ -62,5 +75,9 @@ pythonはプログラミング言語の１つです。<br>
 [初心者がPythonの練習](https://qiita.com/pugiemonn/items/c98e4e24daa177975240)<br>
 
 ## `tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)`での使用例
-何か書くかも
+以下を作成中<br>
+[tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)でのpython使用例](https://github.com/seigot/tetris_game_tutorial/blob/main/SAMPLE.md)
 
+## 次のステップ
+
+[tetris_game](https://github.com/seigot/tetris_game)の[ブロック操作用プログラムについて](https://github.com/seigot/tetris_game/blob/master/doc/files/block_controller.md)や[ブロック操作用サンプルプログラム](https://github.com/seigot/tetris_game/blob/master/doc/files/block_controller_sample.md)を読み進めて下さい。<br>
