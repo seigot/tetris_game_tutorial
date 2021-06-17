@@ -113,7 +113,7 @@ pythonはプログラミング言語の１つです。<br>
 [ライブラリ](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E3%83%A9%E3%82%A4%E3%83%96%E3%83%A9%E3%83%AA)<br>
 [class](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E3%82%AA%E3%83%96%E3%82%B8%E3%82%A7%E3%82%AF%E3%83%88%E6%8C%87%E5%90%91)<br>
 <br>
-[おまけ:PythonでFizz Buzz書いてみた](https://qiita.com/Sekky0905/items/7e2b13f2a001384c7fc4)
+[おまけ:PythonでFizz Buzz書いてみた](https://qiita.com/Sekky0905/items/7e2b13f2a001384c7fc4)<br>
 その他、詳しくは参考サイトを参照下さい。<br>
 
 #### 参考
