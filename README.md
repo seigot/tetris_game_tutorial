@@ -60,7 +60,7 @@ git pull             # 変更を取り込む
 
 ### 具体的なgitコマンド実行例
 
-例) `block_controller2.py`という名のファイルをお試しでpushする<br>
+例) `tetris_game`をcloneしてきて、`block_controller2.py`という名のファイルをお試しでpushする<br>
   （`block_controller2.py`というお試しファイルのpushを好まない人はスキップして問題ありません）
 
 ```
