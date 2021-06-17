@@ -121,6 +121,12 @@ pythonはプログラミング言語の１つです。<br>
 [Python3基礎文法](https://qiita.com/Fendo181/items/a934e4f94021115efb2e)<br>
 [初心者がPythonの練習](https://qiita.com/pugiemonn/items/c98e4e24daa177975240)<br>
 
+### 具体的なpythonコマンド実行例
+
+```
+python3 tutorial1.py
+```
+
 ## `tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)`での使用例
 以下を作成中<br>
 [tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)でのpython使用例](https://github.com/seigot/tetris_game_tutorial/blob/main/SAMPLE.md)
