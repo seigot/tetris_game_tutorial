@@ -12,14 +12,16 @@
 
 |  エディタ名  |  特徴  |  備考  |
 | ---- | ---- | ---- |
-|  vim  |  -  |  -  |
 |  vi  |  -  |  -  |
 |  emacs  |  -  |  -  |
-|  vscode  |  -  |  -  |
+|  vscode  |  Microsoftのエディタ、機能まぁまぁ、グラフィカルで操作はわかりやすい、ただ重い  |  -  |
+|  spyder  |  pythonの統合開発環境（エディタ進化版）、デバッグとかしやすい、ただ重い  |  -  |
+|  nano  |  vimよりマシな操作感、軽い、ただ結局コマンドを覚えないと保存すらできない  |  -  |
+|  vim  |  とりあえず感覚的に操作できないからハードル高い、ただ覚えれば効率は一番いいかも  |  -  |
 |  その他  |  -  |  -  |
 
-参考リンク<br>
-更新する
+#### 参考リンク<br>
+更新するかも
 
 ## コマンド
 
@@ -53,25 +55,29 @@ git pull             # 変更を取り込む
 [[git] 基本操作（clone、add、commit、pushなど）を覚えて、開発出来るようになる](https://www.yoheim.net/blog.php?q=20140104)<br>
 [【Git】基本コマンド](https://qiita.com/konweb/items/621722f67fdd8f86a017)
 
-### 具体的なコマンド実行例
+### 具体的なgitコマンド実行例
 
-例
+例) `block_controller2.py`という名のファイルをお試しでpushする<br>
+  （`block_controller2.py`というお試しファイルのpushを好まない人はスキップして問題ありません）
 
 ```
-cd ~
-rm -rf tetris_game
-git clone http://github.com/(自分のリポジトリ名)/tetris_game
-tetris_game
-cp block_controller.py block_controller2.py
-git add block_controller2.py
-git commit -m "sample commit"
-   please tell me who you are とでたら、、ログに出ている以下を入力
+cd ~                                                        # homeに移動
+rm -rf tetris_game                                          # ディレクトリ削除
+git clone http://github.com/(自分のリポジトリ名)/tetris_game  # (自分のリポジトリ名)/tetris_gameをcloneしてくる
+cd tetris_game                                              # tetris_gameへ移動
+cp block_controller.py block_controller2.py                 # とりあえずお試しファイルをコピー
+git add block_controller2.py                                # お試しファイルを変更対象に登録
+git commit -m "sample commit"                               # addしたファイルを登録する（ローカルのgitに登録する）
+  ## もしplease tell me who you are とでたら、、ログに出ている以下を入力 
    git config --global user.email "You@example.com"
    git config --global user.name "YourName"
-   その後、以下を実行
+  ## その後、以下を実行してcommit
    git commit -m "sample commit"
-   (エディタは esc+:wq  で終了)
-git push
+   もしくは、
+   git commit
+   (エディタは esc+:wq  で終了できる)
+git push                                                    # 変更を取り込む
+   --> Githubアカウント(ユーザ名、パスワード)入力
 ```
 
 ## python
