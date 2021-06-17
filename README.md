@@ -53,6 +53,27 @@ git pull             # 変更を取り込む
 [[git] 基本操作（clone、add、commit、pushなど）を覚えて、開発出来るようになる](https://www.yoheim.net/blog.php?q=20140104)<br>
 [【Git】基本コマンド](https://qiita.com/konweb/items/621722f67fdd8f86a017)
 
+### 具体的なコマンド実行例
+
+例
+
+```
+cd ~
+rm -rf tetris_game
+git clone http://github.com/(自分のリポジトリ名)/tetris_game
+tetris_game
+cp block_controller.py block_controller2.py
+git add block_controller2.py
+git commit -m "sample commit"
+   please tell me who you are とでたら、、ログに出ている以下を入力
+   git config --global user.email "You@example.com"
+   git config --global user.name "YourName"
+   その後、以下を実行
+   git commit -m "sample commit"
+   (エディタは esc+:wq  で終了)
+git push
+```
+
 ## python
 pythonはプログラミング言語の１つです。<br>
 研究用途でも用いられる事が多く、サポートも豊富であり、プロトタイプ開発などに便利です。<br>
