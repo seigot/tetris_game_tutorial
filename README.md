@@ -6,6 +6,13 @@
 プルリクエスト募集中です。<br>
 <br>
 
+## まず動かしてみる
+[tetris_game](https://github.com/seigot/tetris_game)の「実行環境準備」を参照して、まず動かしてみる。<br>
+困った時は[FAQ](https://github.com/seigot/tetris_game/blob/master/doc/files/FAQ.md)など参照。
+
+## Githubリポジトリfork
+[tetris_game](https://github.com/seigot/tetris_game)の「コード作成のはじめかた」を参照してforkする。<br>
+
 ## エディタ
 
 世の中には色々なエディタがありますが、最終的には自分の好みで選択するのがよさそうです。<br>
@@ -14,6 +21,7 @@
 | ---- | ---- | ---- |
 |  vi  |  -  |  -  |
 |  emacs  |  -  |  -  |
+|  gedit  |  -  |  -  |
 |  vscode  |  Microsoftのエディタ、機能まぁまぁ、グラフィカルで操作はわかりやすい、ただ重い  |  -  |
 |  spyder  |  pythonの統合開発環境（エディタ進化版）、デバッグとかしやすい、ただ重い  |  -  |
 |  nano  |  vimよりマシな操作感、軽い、ただ結局コマンドを覚えないと保存すらできない  |  -  |
@@ -25,16 +33,18 @@
 
 ## コマンド
 
+ターミナルから使うコマンドです。<br>
 今回は最低限以下を使えれば問題ないはず。<br>
 
 ```
-cd
-ls
-rm
+cd     : ディレクトリの移動。change directoryの略
+ls     : 現在のディレクトリのファイルを表示。listの略
+rm     : ファイルを削除。removeの略
+rm  -r : ディレクトリを削除。
 ```
 
 #### 参考リンク<br>
-更新するかも
+[ターミナルのよく使うコマンド](https://qiita.com/ryo2132/items/b7e312b0eb50fc449841)
 
 ## git 
 gitはソフトウェアのバージョン管理システムです。<br>
@@ -52,7 +62,7 @@ git pull             # 変更を取り込む
 [test_pull_request](https://github.com/seigot/test_pull_request)<br>
 その他、詳しくは参考サイトを参照下さい。<br>
 
-#### 参考
+#### 参考リンク
 [いまさらだけどGitを基本から分かりやすくまとめてみた](https://qiita.com/gold-kou/items/7f6a3b46e2781b0dd4a0)<br>
 [【メモ】GitHubでgit clone〜git pushまで](https://qiita.com/nt-7/items/c5ea999a2638e03ee418)<br>
 [[git] 基本操作（clone、add、commit、pushなど）を覚えて、開発出来るようになる](https://www.yoheim.net/blog.php?q=20140104)<br>
@@ -116,7 +126,7 @@ pythonはプログラミング言語の１つです。<br>
 [おまけ:PythonでFizz Buzz書いてみた](https://qiita.com/Sekky0905/items/7e2b13f2a001384c7fc4)<br>
 その他、詳しくは参考サイトを参照下さい。<br>
 
-#### 参考
+#### 参考リンク
 [【初心者向け】無料でPythonの基本文法を5時間で学ぼう！](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)<br>
 [Pythonの基礎基本を30分ですべて終わらせる](https://qiita.com/nol_miryuu/items/33fcdb1c4a656644ffe2)
 [Python3基礎文法](https://qiita.com/Fendo181/items/a934e4f94021115efb2e)<br>
