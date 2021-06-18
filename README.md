@@ -84,7 +84,7 @@ git clone http://github.com/(自分のリポジトリ名)/tetris_game  # (自分
 cd tetris_game                                              # tetris_gameへ移動
 cp block_controller.py block_controller2.py                 # とりあえずお試しファイルをコピー
 git add block_controller2.py                                # お試しファイルを変更対象に登録
-git commit -m "sample commit"                               # addしたファイルを登録する（ローカルのgitに登録する）
+git commit -m "sample commit"                               # addしたファイルを登録する（ローカルリポジトリに登録する）
   ## もしplease tell me who you are とでたら、、ログに出ている以下を入力 
    git config --global user.email "You@example.com"
    git config --global user.name "YourName"
@@ -93,7 +93,7 @@ git commit -m "sample commit"                               # addしたファイ
    もしくは、
    git commit
    (エディタは esc+:wq  で終了できる)
-git push                                                    # リモートのgitに登録する
+git push                                                    # リモートリポジトリに登録する
    --> Githubアカウント(ユーザ名、パスワード)入力
 ```
 
