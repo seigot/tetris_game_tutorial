@@ -28,7 +28,7 @@
 |  vim  |  とりあえず感覚的に操作できないからハードル高い、ただ覚えれば効率は一番いいかも  |  -  |
 |  その他  |  -  |  -  |
 
-#### 参考リンク<br>
+#### 参考<br>
 更新するかも
 
 ## コマンド
@@ -43,7 +43,7 @@ rm     : ファイルを削除。removeの略
 rm  -r : ディレクトリを削除。
 ```
 
-#### 参考リンク<br>
+#### 参考<br>
 [ターミナルのよく使うコマンド](https://qiita.com/ryo2132/items/b7e312b0eb50fc449841)
 
 ## git 
@@ -62,7 +62,7 @@ git pull             # 変更を取り込む
 [test_pull_request](https://github.com/seigot/test_pull_request)<br>
 その他、詳しくは参考サイトを参照下さい。<br>
 
-#### 参考リンク
+#### 参考
 [いまさらだけどGitを基本から分かりやすくまとめてみた](https://qiita.com/gold-kou/items/7f6a3b46e2781b0dd4a0)<br>
 [【メモ】GitHubでgit clone〜git pushまで](https://qiita.com/nt-7/items/c5ea999a2638e03ee418)<br>
 [[git] 基本操作（clone、add、commit、pushなど）を覚えて、開発出来るようになる](https://www.yoheim.net/blog.php?q=20140104)<br>
@@ -126,7 +126,7 @@ pythonはプログラミング言語の１つです。<br>
 [おまけ:PythonでFizz Buzz書いてみた](https://qiita.com/Sekky0905/items/7e2b13f2a001384c7fc4)<br>
 その他、詳しくは参考サイトを参照下さい。<br>
 
-#### 参考リンク
+#### 参考
 [【初心者向け】無料でPythonの基本文法を5時間で学ぼう！](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)<br>
 [Pythonの基礎基本を30分ですべて終わらせる](https://qiita.com/nol_miryuu/items/33fcdb1c4a656644ffe2)
 [Python3基礎文法](https://qiita.com/Fendo181/items/a934e4f94021115efb2e)<br>
