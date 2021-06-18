@@ -93,7 +93,7 @@ git commit -m "sample commit"                               # addしたファイ
    もしくは、
    git commit
    (エディタは esc+:wq  で終了できる)
-git push                                                    # 変更を取り込む
+git push                                                    # リモートのgitに登録する
    --> Githubアカウント(ユーザ名、パスワード)入力
 ```
 
