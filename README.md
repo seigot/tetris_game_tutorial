@@ -111,7 +111,7 @@ pythonはプログラミング言語の１つです。<br>
 [論理演算子（and, or）](https://www.python.jp/train/logical_oper/index.html)<br>
 [括弧 ()](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%95%B0%E5%80%A4)<br>
 [if文](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%9D%A1%E4%BB%B6%E5%88%86%E5%B2%90-if%E6%96%87)<br>
-[演算子](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%9D%A1%E4%BB%B6%E5%BC%8F%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9)<br>
+[比較演算子](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%9D%A1%E4%BB%B6%E5%BC%8F%E3%81%AE%E4%BD%9C%E3%82%8A%E6%96%B9)<br>
 [list型](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E3%83%AA%E3%82%B9%E3%83%88%E5%9E%8B)<br>
 [辞書型](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E8%BE%9E%E6%9B%B8%E5%9E%8B)<br>
 [tuple型](https://www.python.jp/train/tuple/index.html)<br>
@@ -135,7 +135,6 @@ pythonはプログラミング言語の１つです。<br>
 [初心者がPythonの練習](https://qiita.com/pugiemonn/items/c98e4e24daa177975240)<br>
 
 ### 具体的なpythonプログラム実行例
-
 本ディレクトリの[tutorial/README.md](https://github.com/seigot/tetris_game_tutorial/blob/main/tutorial/README.md)に基本的なプログラムを登録している。
 
 ```
@@ -146,8 +145,7 @@ python3 tutorial1.py                                     # tutorial用プログ�
 ```
 
 ## `tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)`での使用例
-以下を作成中<br>
-[tetris_gameのブロック操作用サンプルプログラåム(block_controller_sample.py)でのpython使用例](https://github.com/seigot/tetris_game_tutorial/blob/main/SAMPLE.md)
+[tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)でのpython使用例](https://github.com/seigot/tetris_game_tutorial/blob/main/SAMPLE.md)
 
 ## 次のステップ
 
