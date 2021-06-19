@@ -30,29 +30,135 @@ score = score - nIsolatedBlocks * 1.0      # try not to make isolated block
 score = score - absDy * 1.0                # try to put block smoothly
 ```
 
-boardのデータへアクセスする際にも使用しています。<br>
-データは一次元に管理しているため、`(x, y)`の座標は`[x + y*(ボードの横幅)]`番目に格納されていることになります。<br>
-
-```
-board[_y * self.board_data_width + _x] == self.ShapeNone_index
-```
-
 ## `加算代入演算子（+=）、減算代入演算子（-=）`
+
+ボードの盤面評価時に使用しています。<br>
+仮にブロックを置いた際に、消えるラインの数をカウントしています。
+
+```
+# filled with block
+fullLines += 1
+```
+
 ## `max,min,sum`
+
+ボードの盤面評価時に使用しようとしました。（コメントアウトしています）<br>
+フィールド上に積まれているブロックの高さの最大値を取得しようとしています。<br>
+
+```
+#### maxDy
+#maxDy = max(BlockMaxY) - min(BlockMaxY)
+```
+
 ## `論理演算子（and, or）`
+
+いたるところで使用しています。
+
 ## `括弧 ()`
+
+いたるところで使用しています。
+
 ## `if文`
-## `演算子`
+
+いたるところで使用しています。
+
+## `比較演算子`
+
+いたるところで使用しています。
+
 ## `list型`
+
+ボードの盤面評価時に使用しています。<br>
+評価時の一時データ格納用（ブロックの高さが平坦になるかどうかを計算する用）に使っています。
+
+```
+### absolute differencial value of MaxY
+BlockMaxDy = []
+for i in range(len(BlockMaxY) - 1):
+    val = BlockMaxY[i] - BlockMaxY[i+1]
+    BlockMaxDy += [val]
+for x in BlockMaxDy:
+    absDy += abs(x)
+```
+
 ## `辞書型`
+
+`GameStatus`データ管理に使用しています。
+フィールド情報などを以下のように取得します。
+
+```
+# default board definition
+self.board_data_width = GameStatus["field_info"]["width"]
+self.board_data_height = GameStatus["field_info"]["height"]
+```
+
 ## `tuple型`
+
+サンプルプログラムでは使ってない。
+
 ## `len`
+
+ボードの盤面評価時に使用しようとしました。<br>
+盤面評価時の評価データリストの長さを求める際に使います。<br>
+
 ## `for x in [1,2,3,4]:`
+
+探索時に使っています。<br>
+探索時にブロックの回転数を全て考慮したいため以下のように使用しています。<br>
+
+```
+# search with current block Shape
+for direction0 in CurrentShapeDirectionRange:
+    # search with x range
+    x0Min, x0Max = self.getSearchXRange(self.CurrentShape_class, direction0)
+```
+
 ## `for x0 in for range(2,8)`
+
+探索時に使っています。<br>
+探索時にx軸方向の位置を全て考慮したいため以下のように使用しています。<br>
+
+```
+for x0 in range(x0Min, x0Max):
+# get board data, as if dropdown block
+    board = self.getBoard(self.board_backboard, self.CurrentShape_class, direction0, x0)
+```
+
 ## `continue`
+
+サンプルプログラムでは使っていない。
+
 ## `3種類のrange,(range(1,3),range(height - 1, 0, -1):,range(width),)`
+
+`for x in [1,2,3,4]:`、`for x0 in for range(2,8)`と使い方は同じ
+
 ## `while`
+
+探索時に使用しています。<br>
+フィールドに仮にブロックを置く際、どれくらいのブロック数落下可能かを調べる際に使用しています。
+
+```
+# update dy
+for _x, _y in coordArray:
+    _yy = 0
+    while _yy + _y < self.board_data_height and (_yy + _y < 0 or board[(_y + _yy) * self.board_data_width + _x] == self.ShapeNone_index):
+        _yy += 1
+    _yy -= 1
+    if _yy < dy:
+        dy = _yy
+```
+
 ## `関数`
+`block_controller.py`において`def GetNextMove(self, nextMove, GameStatus):`として使用しています。
+
 ## `ライブラリ`
+`block_controller.py`において`pprint`、`copy`をimportして使用しています。
+
+```
+import pprint
+import copy
+```
+
 ## `class`
 
+`block_controller.py`において`class Block_Controller(object):`として使用しています。
