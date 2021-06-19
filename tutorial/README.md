@@ -1,4 +1,4 @@
-# 具体的なpythonコマンド実行例 tutorial
+# 具体的なpythonプログラム実行例 tutorial
 
 以下の通り実行できます<br>
 <br>
