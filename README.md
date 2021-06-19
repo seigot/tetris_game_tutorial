@@ -97,6 +97,8 @@ git push                                                    # リモートリポ
    --> Githubアカウント(ユーザ名、パスワード)入力
 ```
 
+githubの自リポジトリ上に変更が加わっていることがみえたらOKです。
+
 ## python
 pythonはプログラミング言語の１つです。<br>
 研究用途でも用いられる事が多く、サポートも豊富であり、プロトタイプ開発などに便利です。<br>
@@ -132,15 +134,20 @@ pythonはプログラミング言語の１つです。<br>
 [Python3基礎文法](https://qiita.com/Fendo181/items/a934e4f94021115efb2e)<br>
 [初心者がPythonの練習](https://qiita.com/pugiemonn/items/c98e4e24daa177975240)<br>
 
-### 具体的なpythonコマンド実行例
+### 具体的なpythonプログラム実行例
+
+本ディレクトリの[tutorial/README.md](https://github.com/seigot/tetris_game_tutorial/blob/main/tutorial/README.md)に基本的なプログラムを登録している。
 
 ```
-python3 tutorial1.py
+git clone http://github.com/seigot/tetris_game_tutorial  # tutorialディレクトリをclone
+cd tetris_game_tutorial/tutorial                         # tutorialディレクトリへ移動
+python3 tutorial1.py                                     # tutorial用プログラム実行
+...
 ```
 
 ## `tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)`での使用例
 以下を作成中<br>
-[tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)でのpython使用例](https://github.com/seigot/tetris_game_tutorial/blob/main/SAMPLE.md)
+[tetris_gameのブロック操作用サンプルプログラåム(block_controller_sample.py)でのpython使用例](https://github.com/seigot/tetris_game_tutorial/blob/main/SAMPLE.md)
 
 ## 次のステップ
 
