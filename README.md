@@ -135,7 +135,9 @@ pythonはプログラミング言語の１つです。<br>
 [初心者がPythonの練習](https://qiita.com/pugiemonn/items/c98e4e24daa177975240)<br>
 
 ### 具体的なpythonプログラム実行例
-本ディレクトリの[tutorial/README.md](https://github.com/seigot/tetris_game_tutorial/blob/main/tutorial/README.md)に基本的なプログラムを登録している。
+本ディレクトリの[tutorial](https://github.com/seigot/tetris_game_tutorial/tree/main/tutorial)に基本的なプログラムを登録している。<br>
+実行方法は[tutorial/README.md](https://github.com/seigot/tetris_game_tutorial/blob/main/tutorial/README.md)に記載
+
 
 ```
 git clone http://github.com/seigot/tetris_game_tutorial  # tutorialディレクトリをclone
