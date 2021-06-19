@@ -34,3 +34,5 @@ python3 tutorial19.py   # ライブラリ
 python3 tutorial20.py   # class
 python3 tutorial21.py   # おまけ:PythonでFizz Buzz書いてみた
 ```
+
+中身はエディタで`xxx.py`ファイルを開いてみてください。
