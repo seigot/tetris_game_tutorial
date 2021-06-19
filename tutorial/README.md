@@ -19,7 +19,7 @@ python3 tutorial4.py    # max,min,sum
 python3 tutorial5.py    # 論理演算子（and, or）
 python3 tutorial6.py    # 括弧 ()
 python3 tutorial7.py    # if文
-python3 tutorial8.py    # 演算子
+python3 tutorial8.py    # 比較演算子
 python3 tutorial9.py    # list型
 python3 tutorial10.py   # 辞書型
 python3 tutorial11.py   # tuple型
@@ -35,4 +35,4 @@ python3 tutorial20.py   # class
 python3 tutorial21.py   # おまけ:PythonでFizz Buzz書いてみた
 ```
 
-中身はエディタで`xxx.py`ファイルを開いてみてください。
+プログラム詳細は、エディタで`xxx.py`ファイルを開いてみてください。
