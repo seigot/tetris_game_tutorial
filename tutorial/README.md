@@ -32,5 +32,5 @@ python3 tutorial17.py   # while
 python3 tutorial18.py   # 関数
 python3 tutorial19.py   # ライブラリ
 python3 tutorial20.py   # class
-python3 tutorial21.py
+python3 tutorial21.py   # おまけ:PythonでFizz Buzz書いてみた
 ```
