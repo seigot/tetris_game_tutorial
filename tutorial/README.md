@@ -1,6 +1,6 @@
-# 具体的なpythonプログラム実行例 tutorial
+# python使用例 tutorial
 
-以下の通り実行できます<br>
+以下の通り実行できます。<br>
 <br>
 準備
 
