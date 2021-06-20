@@ -68,7 +68,7 @@ git pull             # 変更を取り込む
 [[git] 基本操作（clone、add、commit、pushなど）を覚えて、開発出来るようになる](https://www.yoheim.net/blog.php?q=20140104)<br>
 [【Git】基本コマンド](https://qiita.com/konweb/items/621722f67fdd8f86a017)
 
-### 具体的なgitコマンド実行例
+### gitコマンド使用例
 
 例) `tetris_game`をcloneしてきて、`block_controller2.py`という名のファイルをお試しでpushする<br>
   （`block_controller2.py`というお試しファイルのpushを好まない人はスキップして問題ありません）
@@ -134,9 +134,9 @@ pythonはプログラミング言語の１つです。<br>
 [Python3基礎文法](https://qiita.com/Fendo181/items/a934e4f94021115efb2e)<br>
 [初心者がPythonの練習](https://qiita.com/pugiemonn/items/c98e4e24daa177975240)<br>
 
-### 具体的なpythonプログラム実行例
-本ディレクトリの[tutorial](https://github.com/seigot/tetris_game_tutorial/tree/main/tutorial)に基本的なプログラムを格納している。<br>
-実行方法は[tutorial/README.md](https://github.com/seigot/tetris_game_tutorial/blob/main/tutorial/README.md)に記載
+### python使用例
+[tutorial](https://github.com/seigot/tetris_game_tutorial/tree/main/tutorial)にお試し用pythonプログラムを置きました。<br>
+使用手順の詳細は[tutorial/README.md](https://github.com/seigot/tetris_game_tutorial/blob/main/tutorial/README.md)を参照ください。
 
 
 ```
