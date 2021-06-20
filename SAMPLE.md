@@ -52,19 +52,38 @@ fullLines += 1
 
 ## `論理演算子（and, or）`
 
-いたるところで使用しています。
+後述する`if文`の条件式に使用しています。<br>
+その他、いたるところで使用しています。<br>
+
+```
+if hasBlock == True and hasHole == False:
+   # filled with block
+   fullLines += 1
+```
 
 ## `括弧 ()`
 
-いたるところで使用しています。
+`if文`の条件式や、探索時の計算時に多用しています。<br>
+その他、いたるところで使用しています。<br>
 
 ## `if文`
 
-いたるところで使用しています。
+ブロックを置く位置の探索時、最適と判断した位置の評価スコアを保持する際に使用しています。<br>
+その他、いたるところで使用しています。<br>
+
+```
+# evaluate board
+EvalValue = self.calcEvaluationValueSample(board)
+# update best move
+if EvalValue > LatestEvalValue:
+    strategy = (direction0, x0, 1, 1)
+    LatestEvalValue = EvalValue
+```
 
 ## `比較演算子`
 
-いたるところで使用しています。
+`if文`同様に評価スコアを扱う際に多用しています。<br>
+その他、いたるところで使用しています。<br>
 
 ## `list型`
 
