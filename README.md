@@ -1,17 +1,17 @@
-# tetris_game_tutorial
+# tetris_tutorial
 
-[tetris_game](https://github.com/seigot/tetris_game)プログラミング用のチュートリアルです。<br>
-このチュートリアルを理解すれば[tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)](https://github.com/seigot/tetris_game/blob/master/doc/files/block_controller_sample.md)が読めるようになることを目指しています。<br>
+[tetris](https://github.com/seigot/tetris)プログラミング用のチュートリアルです。<br>
+このチュートリアルを理解すれば[tetrisのブロック操作用サンプルプログラム(block_controller_sample.py)](https://github.com/seigot/tetris/blob/master/doc/files/block_controller_sample.md)が読めるようになることを目指しています。<br>
 <br>
 プルリクエスト募集中です。<br>
 <br>
 
 ## まず動かしてみる
-[tetris_game](https://github.com/seigot/tetris_game)の「実行環境準備」を参照して、まず動かしてみる。<br>
-困った時は[FAQ](https://github.com/seigot/tetris_game/blob/master/doc/files/FAQ.md)など参照。
+[tetris](https://github.com/seigot/tetris)の「実行環境準備」を参照して、まず動かしてみる。<br>
+困った時は[FAQ](https://github.com/seigot/tetris/blob/master/doc/files/FAQ.md)など参照。
 
 ## Githubリポジトリfork
-[tetris_game](https://github.com/seigot/tetris_game)の「コード作成のはじめかた」を参照してforkする。<br>
+[tetris](https://github.com/seigot/tetris)の「コード作成のはじめかた」を参照してforkする。<br>
 
 ## エディタ
 
@@ -48,7 +48,7 @@ rm  -r : ディレクトリを削除。
 
 ## git 
 gitはソフトウェアのバージョン管理システムです。<br>
-github上での`tetris_game`用ソースコード管理をコマンドラインから操作することが可能です。<br>
+github上での`tetris`用ソースコード管理をコマンドラインから操作することが可能です。<br>
 多くのコマンドが存在しますが、今回は最低限以下を使えれば問題ないはず。<br>
 
 ```
@@ -70,18 +70,18 @@ git pull             # 変更を取り込む
 
 ### gitコマンド使用例
 
-例) `tetris_game`をcloneしてきて、`block_controller2.py`という名のファイルをお試しでpushする<br>
+例) `tetris`をcloneしてきて、`block_controller2.py`という名のファイルをお試しでpushする<br>
   （`block_controller2.py`というお試しファイルのpushを好まない人はスキップして問題ありません）
 
-![Screenshot](https://github.com/seigot/tetris_game_tutorial/blob/main/doc/how_to_use_git.PNG)
+![Screenshot](https://github.com/seigot/tetris_tutorial/blob/main/doc/how_to_use_git.PNG)
 
 コマンド
 
 ```
 cd ~                                                        # homeに移動
-rm -rf tetris_game                                          # ディレクトリ削除
-git clone http://github.com/(自分のリポジトリ名)/tetris_game  # (自分のリポジトリ名)/tetris_gameをcloneしてくる
-cd tetris_game                                              # tetris_gameへ移動
+rm -rf tetris                                          # ディレクトリ削除
+git clone http://github.com/(自分のリポジトリ名)/tetris  # (自分のリポジトリ名)/tetrisをcloneしてくる
+cd tetris                                              # tetrisへ移動
 cp block_controller.py block_controller2.py                 # とりあえずお試しファイルをコピー
 git add block_controller2.py                                # お試しファイルを変更対象に登録
 git commit -m "sample commit"                               # addしたファイルを登録する（ローカルリポジトリに登録する）
@@ -146,9 +146,9 @@ python3 tutorial1.py                                     # tutorial用プログ�
 ...
 ```
 
-## `tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)`での使用例
-[tetris_gameのブロック操作用サンプルプログラム(block_controller_sample.py)でのpython使用例](https://github.com/seigot/tetris_game_tutorial/blob/main/SAMPLE.md)
+## `tetrisのブロック操作用サンプルプログラム(block_controller_sample.py)`での使用例
+[tetrisのブロック操作用サンプルプログラム(block_controller_sample.py)でのpython使用例](https://github.com/seigot/tetris_tutorial/blob/main/SAMPLE.md)
 
 ## 次のステップ
 
-[tetris_game](https://github.com/seigot/tetris_game)の[ブロック操作用プログラムについて](https://github.com/seigot/tetris_game/blob/master/doc/files/block_controller.md)や[ブロック操作用サンプルプログラム](https://github.com/seigot/tetris_game/blob/master/doc/files/block_controller_sample.md)を読み進めて下さい。<br>
+[tetris](https://github.com/seigot/tetris)の[ブロック操作用プログラムについて](https://github.com/seigot/tetris/blob/master/doc/files/block_controller.md)や[ブロック操作用サンプルプログラム](https://github.com/seigot/tetris/blob/master/doc/files/block_controller_sample.md)を読み進めて下さい。<br>
