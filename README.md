@@ -73,7 +73,7 @@ git pull             # 変更を取り込む
 例) `tetris`をcloneしてきて、`block_controller2.py`という名のファイルをお試しでpushする<br>
   （`block_controller2.py`というお試しファイルのpushを好まない人はスキップして問題ありません）
 
-![Screenshot](https://github.com/seigot/tetris_game_tutorial/blob/main/doc/how_to_use_git2.PNG)
+![Screenshot](https://github.com/seigot/tetris_game_tutorial/blob/main/doc/how_to_use_git2.png)
 
 コマンド
 
