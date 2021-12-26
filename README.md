@@ -147,7 +147,7 @@ python3 tutorial1.py                                     # tutorial用プログ�
 ```
 
 ## `tetrisのブロック操作用サンプルプログラム(block_controller_sample.py)`での使用例
-[tetrisのブロック操作用サンプルプログラム(block_controller_sample.py)でのpython使用例](https://github.com/seigot/tetris_tutorial/blob/main/SAMPLE.md)
+[tetrisのブロック操作用サンプルプログラム(block_controller_sample.py)でのpython使用例](https://github.com/seigot/tetris_game_tutorial/blob/main/SAMPLE.md)
 
 ## 次のステップ
 
