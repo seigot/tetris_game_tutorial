@@ -104,6 +104,11 @@ pythonはプログラミング言語の１つです。<br>
 研究用途でも用いられる事が多く、サポートも豊富であり、プロトタイプ開発などに便利です。<br>
 文法に関しても色々ハマり所はありますが、今回は最低限以下を使えれば問題ないはず。<br>
 
+以下を参考にしています。<br>
+> [【初心者向け】無料でPythonの基本文法を5時間で学ぼう！AI_Academy](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)  
+> [AtCoderで始めるPython入門](https://qiita.com/KoyanagiHitoshi/items/3286fbc65d56dd67737c)  
+> [公式サイト: Top - python.jp](https://www.python.jp/)  
+
 [print](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%96%87%E5%AD%97%E5%88%97%E3%81%A8%E6%95%B0%E5%80%A4%E3%81%AE%E9%81%95%E3%81%84)<br>
 [演算子（*,/,+.-）](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%95%B0%E5%80%A4)<br>
 [加算代入演算子（+=）、減算代入演算子（-=）](https://techacademy.jp/magazine/24516)<br>
@@ -152,3 +157,9 @@ python3 tutorial1.py                                     # tutorial用プログ�
 ## 次のステップ
 
 [tetris](https://github.com/seigot/tetris)の[ブロック操作用プログラムについて](https://github.com/seigot/tetris/blob/master/doc/files/block_controller.md)や[ブロック操作用サンプルプログラム](https://github.com/seigot/tetris/blob/master/doc/files/block_controller_sample.md)を読み進めて下さい。<br>
+
+
+# 以下、参考
+[【初心者向け】無料でPythonの基本文法を5時間で学ぼう！AI_Academy](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)  
+[AtCoderで始めるPython入門](https://qiita.com/KoyanagiHitoshi/items/3286fbc65d56dd67737c)  
+[公式サイト: Top - python.jp](https://www.python.jp/)  
