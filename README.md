@@ -22,7 +22,7 @@
 |  vi  |  -  |  -  |
 |  emacs  |  -  |  -  |
 |  gedit  |  -  |  -  |
-|  vscode  |  Microsoftのエディタ、機能まぁまぁ、グラフィカルで操作はわかりやすい、ただ重い  |  -  |
+|  vscode  |  Microsoftのエディタ、機能まぁまぁ、グラフィカルで操作はわかりやすい、ただ重い<br> [MacOSでVisual Studio Codeをインストールする手順](https://qiita.com/watamura/items/51c70fbb848e5f956fd6)<br>[Microsoft Visual Studio Codev1.56.0](https://winget.run/pkg/Microsoft/VisualStudioCode)<br>[UbuntuにVSCodeをインストールする3つの方法](https://qiita.com/yoshiyasu1111/items/e21a77ed68b52cb5f7c8)  |  -  |
 |  spyder  |  pythonの統合開発環境（エディタ進化版）、デバッグとかしやすい、ただ重い  |  -  |
 |  nano  |  vimよりマシな操作感、軽い、ただ結局コマンドを覚えないと保存すらできない  |  -  |
 |  vim  |  とりあえず感覚的に操作できないからハードル高い、ただ覚えれば効率は一番いいかも  |  -  |
