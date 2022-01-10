@@ -99,6 +99,15 @@ git push                                                    # リモートリポ
 
 githubの自リポジトリ上に変更が加わっていることがみえたらOKです。
 
+### githubへpushする際の認証方法の変更
+
+2021/8/13より、Githubへ認証が必要なgit操作をする場合は、Passwordによる認証からアクセストークンを使用した認証に変わったようです。　　
+使用方法は以下の通り公式サイトを参照すればOK。  
+
+> [個人アクセストークンを使用する](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token)
+> [githubの個人アクセストークンを使用する](https://qiita.com/seigot/items/605661666f074547a89e)
+
+
 ## python
 pythonはプログラミング言語の１つです。<br>
 研究用途でも用いられる事が多く、サポートも豊富であり、プロトタイプ開発などに便利です。<br>
