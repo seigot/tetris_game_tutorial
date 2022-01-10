@@ -1,3 +1,27 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**
+
+- [tetris_tutorial](#tetris_tutorial)
+  - [まず動かしてみる](#%E3%81%BE%E3%81%9A%E5%8B%95%E3%81%8B%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B)
+  - [Githubリポジトリfork](#github%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AAfork)
+  - [エディタ](#%E3%82%A8%E3%83%87%E3%82%A3%E3%82%BF)
+      - [参考<br>](#%E5%8F%82%E8%80%83br)
+  - [ターミナルから使うコマンド](#%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E3%81%8B%E3%82%89%E4%BD%BF%E3%81%86%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89)
+      - [参考<br>](#%E5%8F%82%E8%80%83br-1)
+  - [git](#git)
+      - [参考](#%E5%8F%82%E8%80%83)
+    - [gitコマンド使用例](#git%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E4%BD%BF%E7%94%A8%E4%BE%8B)
+    - [githubへpushする際の認証方法の変更](#github%E3%81%B8push%E3%81%99%E3%82%8B%E9%9A%9B%E3%81%AE%E8%AA%8D%E8%A8%BC%E6%96%B9%E6%B3%95%E3%81%AE%E5%A4%89%E6%9B%B4)
+  - [python](#python)
+      - [参考](#%E5%8F%82%E8%80%83-1)
+    - [python使用例](#python%E4%BD%BF%E7%94%A8%E4%BE%8B)
+  - [`tetrisのブロック操作用サンプルプログラム(block_controller_sample.py)`での使用例](#tetris%E3%81%AE%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E6%93%8D%E4%BD%9C%E7%94%A8%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0block_controller_samplepy%E3%81%A7%E3%81%AE%E4%BD%BF%E7%94%A8%E4%BE%8B)
+  - [次のステップ](#%E6%AC%A1%E3%81%AE%E3%82%B9%E3%83%86%E3%83%83%E3%83%97)
+- [以下、参考](#%E4%BB%A5%E4%B8%8B%E5%8F%82%E8%80%83)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # tetris_tutorial
 
 [tetris](https://github.com/seigot/tetris)プログラミング用のチュートリアルです。<br>
