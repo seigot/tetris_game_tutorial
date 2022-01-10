@@ -101,7 +101,7 @@ githubの自リポジトリ上に変更が加わっていることがみえた�
 
 ### githubへpushする際の認証方法の変更
 
-2021/8/13より、Githubへ認証が必要なgit操作をする場合は、Passwordによる認証からアクセストークンを使用した認証に変わったようです。　　
+2021/8/13より、Githubへ認証が必要なgit操作をする場合は、Passwordによる認証からアクセストークンを使用した認証に変わったようです。<br>
 使用方法は以下の通り公式サイトを参照すればOK。  
 
 > [個人アクセストークンを使用する](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token)
