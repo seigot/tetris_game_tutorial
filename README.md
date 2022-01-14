@@ -95,14 +95,14 @@ git pull             # 変更を取り込む
 
 ### gitコマンド使用例（`https://github.com/seigot/test_pull_request`を使う場合）
 
-1. リポジトリをforkする<br>
+- リポジトリをforkする<br>
 
 まず、[test_pull_request](https://github.com/seigot/test_pull_request)にアクセスしてリポジトリを`fork`する。  
 右上の「Fork」ボタンを押せばOK
 
-2. リポジトリをcloneする<br>
+- リポジトリをcloneする<br>
 
-次に、forkしたリポジトリを`clone`する<br>
+次に、forkしたリポジトリを`git clone`する<br>
 ※`(自分のアカウント名)`の部分は、自分アカウント名に置き換える
 
 ```
@@ -112,7 +112,7 @@ git clone https://github.com/(自分のアカウント名)/test_pull_request
 git clone https://github.com/seigot/test_pull_request
 ```
 
-3. `git add/commit/push`する、<br>
+- `git add/commit/push`する、<br>
 
 ```
 cd test_pull_request                      # git clone https://github.com/(自分のアカウント名)/test_pull_requestで取得したリポジトリに移動する。
@@ -122,9 +122,9 @@ git commit -m "update README.md"          # git commit
 git push                                  # git push
 ```
 
-4. 更新の確認 <br>
+- 更新の確認 <br>
 
-`https://github.com/(自分のアカウント名)/test_pull_request`にアクセスして、更新が反映されていればOK
+`https://github.com/(自分のアカウント名)/test_pull_request`にアクセスして、更新が反映されていればOK  
 ※`(自分のアカウント名)`の部分は、自分アカウント名に置き換える
 
 ### gitコマンド使用例（`http://github.com/(自分のアカウント名)/tetris`を使う場合）
