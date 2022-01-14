@@ -92,7 +92,41 @@ git pull             # 変更を取り込む
 [[git] 基本操作（clone、add、commit、pushなど）を覚えて、開発出来るようになる](https://www.yoheim.net/blog.php?q=20140104)<br>
 [【Git】基本コマンド](https://qiita.com/konweb/items/621722f67fdd8f86a017)
 
-### gitコマンド使用例
+### gitコマンド使用例（`https://github.com/seigot/test_pull_request`を使う場合）
+
+1. リポジトリをforkする<br>
+
+まず、[test_pull_request](https://github.com/seigot/test_pull_request)にアクセスしてリポジトリを`fork`する。  
+右上の「Fork」ボタンを押せばOK
+
+2. リポジトリをcloneする<br>
+
+次に、forkしたリポジトリを`clone`する<br>
+※`(自分のアカウント名)`の部分は、自分アカウント名に置き換える
+
+```
+git clone https://github.com/(自分のアカウント名)/test_pull_request
+
+# 例 (自分のアカウント名)=seigotの場合
+git clone https://github.com/seigot/test_pull_request
+```
+
+3. `git add/commit/push`する、<br>
+
+```
+cd test_pull_request                      # git clone https://github.com/(自分のアカウント名)/test_pull_requestで取得したリポジトリに移動する。
+echo "this_is_test_string" >> README.md   # README.mdファイルを更新する
+git add README.md                         # git add
+git commit -m "update README.md"          # git commit
+git push                                  # git push
+```
+
+4. 更新の確認 <br>
+
+`https://github.com/(自分のアカウント名)/test_pull_request`にアクセスして、更新が反映されていればOK
+※`(自分のアカウント名)`の部分は、自分アカウント名に置き換える
+
+### gitコマンド使用例（`http://github.com/(自分のアカウント名)/tetris`を使う場合）
 
 例) `tetris`をcloneしてきて、`block_controller2.py`という名のファイルをお試しでpushする<br>
   （`block_controller2.py`というお試しファイルのpushを好まない人はスキップして問題ありません）
@@ -103,9 +137,9 @@ git pull             # 変更を取り込む
 
 ```
 cd ~                                                        # homeに移動
-rm -rf tetris                                          # ディレクトリ削除
-git clone http://github.com/(自分のリポジトリ名)/tetris  # (自分のリポジトリ名)/tetrisをcloneしてくる
-cd tetris                                              # tetrisへ移動
+rm -rf tetris                                               # ディレクトリ削除
+git clone http://github.com/(自分のアカウント名)/tetris       # (自分のアカウント名)/tetrisをcloneしてくる
+cd tetris                                                   # tetrisへ移動
 cp block_controller.py block_controller2.py                 # とりあえずお試しファイルをコピー
 git add block_controller2.py                                # お試しファイルを変更対象に登録
 git commit -m "sample commit"                               # addしたファイルを登録する（ローカルリポジトリに登録する）
