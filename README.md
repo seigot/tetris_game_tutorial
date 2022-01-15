@@ -19,6 +19,7 @@
     - [python使用例](#python%E4%BD%BF%E7%94%A8%E4%BE%8B)
   - [`tetrisのブロック操作用サンプルプログラム(block_controller_sample.py)`での使用例](#tetris%E3%81%AE%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E6%93%8D%E4%BD%9C%E7%94%A8%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%A0block_controller_samplepy%E3%81%A7%E3%81%AE%E4%BD%BF%E7%94%A8%E4%BE%8B)
   - [次のステップ](#%E6%AC%A1%E3%81%AE%E3%82%B9%E3%83%86%E3%83%83%E3%83%97)
+  - [その次のステップ](#%E3%81%9D%E3%81%AE%E6%AC%A1%E3%81%AE%E3%82%B9%E3%83%86%E3%83%83%E3%83%97)
 - [以下、参考](#%E4%BB%A5%E4%B8%8B%E5%8F%82%E8%80%83)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
