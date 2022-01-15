@@ -36,7 +36,7 @@
 困った時は[FAQ](https://github.com/seigot/tetris/blob/master/doc/files/FAQ.md)など参照。
 
 ## Githubリポジトリfork
-[tetris](https://github.com/seigot/tetris)をforkする。これは右上の「Fork」ボタンを押せばOK<br>
+[tetris](https://github.com/seigot/tetris)をforkする。これは[tetris](https://github.com/seigot/tetris)の右上の「Fork」ボタンを押せばOK<br>
 [tetris](https://github.com/seigot/tetris)を「コード作成のはじめかた」にも詳細を記載している<br>
 
 ## エディタ
