@@ -227,6 +227,9 @@ python3 tutorial1.py                                     # tutorial用プログ�
 
 [tetris](https://github.com/seigot/tetris)の[ブロック操作用プログラムについて](https://github.com/seigot/tetris/blob/master/doc/files/block_controller.md)や[ブロック操作用サンプルプログラム](https://github.com/seigot/tetris/blob/master/doc/files/block_controller_sample.md)を読み進めて下さい。<br>
 
+## その次のステップ
+
+自身のリポジトリ配下の[ブロック操作用プログラム(block_controller.py)](https://github.com/seigot/tetris/blob/master/game_manager/block_controller.py)をアップデートしてハイスコアを狙って下さい。<br>
 
 # 以下、参考
 [【初心者向け】無料でPythonの基本文法を5時間で学ぼう！AI_Academy](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)  
