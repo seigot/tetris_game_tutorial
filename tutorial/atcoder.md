@@ -2,6 +2,8 @@
 
 pythonを使う練習として、Atcoderの過去問を解くことをオススメします。  
 
+※順次追加
+
 |  問題  |  URL  |  備考  |  リスペクト元  |
 | ---- | ---- | ---- | ---- |
 |  ABC231 C問題  |  https://atcoder.jp/contests/abc231/tasks/abc231_c  |  ソート済み数列への二分探索がわかれば解ける問題  |  @EndoNrak  |
