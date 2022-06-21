@@ -163,7 +163,7 @@ githubの自リポジトリ上に変更が加わっていることがみえた�
 ### githubへpushする際の認証方法の変更
 
 2021/8/13より、Githubへ認証が必要なgit操作をする場合は、Passwordによる認証からアクセストークンを使用した認証に変わったようです。<br>
-使用方法は以下の通り公式サイトを参照すればOK。  
+使用方法は以下の通り公式サイトを参照すればOK。Passwordの代わりにアクセストークンを入力すればOKの様子。  
 
 > [個人アクセストークンを使用する](https://docs.github.com/ja/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-token)
 > [githubの個人アクセストークンを使用する](https://qiita.com/seigot/items/605661666f074547a89e)
@@ -231,6 +231,12 @@ python3 tutorial1.py                                     # tutorial用プログ�
 ## その次のステップ
 
 自身のリポジトリ配下の[ブロック操作用プログラム(block_controller.py)](https://github.com/seigot/tetris/blob/master/game_manager/block_controller.py)をアップデートしてハイスコアを狙って下さい。<br>
+
+## 補足
+
+pythonを使う練習として、Atcoderの過去問を解くことがオススメです。  
+[Atcoderの過去問](https://github.com/seigot/tetris_game_tutorial/blob/main/tutorial/atcoder.md)  
+
 
 # 以下、参考
 [【初心者向け】無料でPythonの基本文法を5時間で学ぼう！AI_Academy](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)  
