@@ -235,7 +235,7 @@ python3 tutorial1.py                                     # tutorial用プログ�
 
 ## 補足
 
-pythonに慣れるための練習として、Atcoderの過去問を解くことをオススメします。  
+pythonを使う練習として、Atcoderの過去問を解くことをオススメします。  
 [Atcoderの過去問](https://github.com/seigot/tetris_game_tutorial/blob/main/tutorial/atcoder.md)  
 
 
