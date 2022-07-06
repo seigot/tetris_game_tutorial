@@ -1,3 +1,11 @@
+# 勉強用ドキュメント
+
+|  名前  |  URL  |  備考  |  リスペクト元  |
+| ---- | ---- | ---- | ---- |
+|  python.jp ゼロからのPython入門講座  |  [公式サイト: Top - python.jp ゼロからのPython入門講座](https://www.python.jp/train/index.html)  |  -  |  @EndoNrak  |
+|  paiza.jp Python3入門編 | [Python3入門編](https://paiza.jp/works/python3/primer) | ---- | @EndoNrak |
+|  progate | https://prog-8.com/courses/python | ---- | @ryochinbo |
+
 # atcoder過去問
 
 pythonを使う練習として、Atcoderの過去問を解くことをオススメします。  
