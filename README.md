@@ -176,9 +176,9 @@ pythonはプログラミング言語の１つです。<br>
 文法に関しても色々ハマり所はありますが、今回は最低限以下を使えれば問題ないはず。<br>
 
 以下を参考にしています。<br>
+> [公式サイト: Top - python.jp ゼロからのPython入門講座](https://www.python.jp/train/index.html)  
 > [【初心者向け】無料でPythonの基本文法を5時間で学ぼう！AI_Academy](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)  
 > [AtCoderで始めるPython入門](https://qiita.com/KoyanagiHitoshi/items/3286fbc65d56dd67737c)  
-> [公式サイト: Top - python.jp](https://www.python.jp/)  
 
 [print](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%96%87%E5%AD%97%E5%88%97%E3%81%A8%E6%95%B0%E5%80%A4%E3%81%AE%E9%81%95%E3%81%84)<br>
 [演算子（*,/,+.-）](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb#%E6%95%B0%E5%80%A4)<br>
