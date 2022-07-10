@@ -6,7 +6,7 @@
 |  paiza.jp Python3入門編 | [Python3入門編](https://paiza.jp/works/python3/primer) | ---- | @EndoNrak |
 |  progate | https://prog-8.com/courses/python | ---- | @ryochinbo |
 
-# atcoder過去問
+# python練習問題
 
 pythonを使う練習として、Atcoderの過去問を解くことをオススメします。  
 
@@ -14,6 +14,7 @@ pythonを使う練習として、Atcoderの過去問を解くことをオスス�
 
 |  問題  |  URL  |  備考  |  リスペクト元  |
 | ---- | ---- | ---- | ---- |
+|  Atcoder Beginner Selection  |  https://atcoder.jp/contests/abs/tasks  |  pythonの基本問題  |  @seigot  |
 |  ABC258 B問題  |  https://atcoder.jp/contests/abc258/tasks/abc258_b  |  二次元配列を扱えれば解ける問題  |  @EndoNrak  |
 |  ABC231 C問題  |  https://atcoder.jp/contests/abc231/tasks/abc231_c  |  ソート済み数列への二分探索がわかれば解ける問題  |  @EndoNrak  |
 |  ABC241 C問題  |  https://atcoder.jp/contests/abc241/tasks/abc241_c  |  二次元配列を扱えれば解ける問題  |  @EndoNrak  |
