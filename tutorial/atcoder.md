@@ -34,3 +34,4 @@ AI(特に強化学習)を使う練習として、何かお勧めがあれば追�
 | 【Lv.3】Pytorchチュートリアル(日本語翻訳版) | https://yutaroogawa.github.io/pytorch_tutorials_jp/ |  「Pytorch」の使い方サイト | よく"機械学習"と聞くときの手法、"ニューラルネットワーク"(・"CNN"・"RNN")・"強化学習"などを学習できます。 | @sato-san |
 | 【Lv.3+】データシステムの知能化とデザイン | https://github.com/keioNishi/lec-dataai#readme | Google Colabに講義テキストが丁寧にまとめられていることが特徴 | 学部2年生の「プログラミング演習」(純粋なPythonの習得を目指す授業です)の応用科目なので、Pythonの復習からスタートし、やさしくステップアップしていきます。 | @sato-san |
 | 【Lv.4】ゼロから作るDeep Learning / 斎藤 康毅 | https://www.oreilly.co.jp/books/9784873117584/ | (今までライブラリを使って計算してもらっていたことを、Lv.1〜3で勉強してきた理論やイメージを実装する形で理解する内容です。) | | @sato-san |
+| Deep Q-Network〜Rainbowの研究の流れと実装①（Rainbowの論文の確認) | https://lib-arts.hatenablog.com/entry/rl_trend6 | ---- | 参考文献 | ---- |
