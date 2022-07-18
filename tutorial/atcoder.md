@@ -30,7 +30,8 @@ AI(特に強化学習)を使う練習として、何かお勧めがあれば追�
 | ---- | ---- | ---- | ---- | ---- |
 | Deep Learningの世界 | https://www.youtube.com/playlist?list=PLhDAH9aTfnxKXf__soUoAEOrbLAOnVHCP | 中身は東大の数学科の博士出の人がDeep Learning などの解説をしてくれています。 | @kiriyama-san |
 | 【Lv.1】下の添付資料 |  | 授業「インテリジェンスデザイン」の講義資料  | 「機械学習って何？」という学生を対象に背景知識をざーっと概観する内容で、強化学習やその他の高級な手法までカバー | @sato-san |
-| 【Lv.2】Pythonによる機械学習入門 / 株式会社システム計画研究所 | https://www.ohmsha.co.jp/book/9784274219634/ | | | @sato-san |
-| 【Lv.3】Pytorchチュートリアル(日本語翻訳版) | https://yutaroogawa.github.io/pytorch_tutorials_jp/ | | | @sato-san |
-| 【Lv.4】ゼロから作るDeep Learning / 斎藤 康毅 | https://www.oreilly.co.jp/books/9784873117584/ | | | @sato-san |
+| 【Lv.2】Pythonによる機械学習入門 / 株式会社システム計画研究所 | https://www.ohmsha.co.jp/book/9784274219634/ | 機械学習の基本的な手法である"クラスタリング"・"分類"。"回帰"を学習できます | 本書は「3手法をとりあえず実装して動かしてみよう！」ということからスタートするので、第1章のたった30ページ弱で内容をいったん総ざらいできます。また、Lv.1の資料で簡単にまとめられていた背景知識が、体系的に読みやすい文の形でまとめられています。
+ | @sato-san |
+| 【Lv.3】Pytorchチュートリアル(日本語翻訳版) | https://yutaroogawa.github.io/pytorch_tutorials_jp/ |  「Pytorch」の使い方サイト | よく"機械学習"と聞くときの手法、"ニューラルネットワーク"(・"CNN"・"RNN")・"強化学習"などを学習できます。 | @sato-san |
 | 【Lv.3+】データシステムの知能化とデザイン | https://github.com/keioNishi/lec-dataai#readme | | | @sato-san |
+| 【Lv.4】ゼロから作るDeep Learning / 斎藤 康毅 | https://www.oreilly.co.jp/books/9784873117584/ | (今までライブラリを使って計算してもらっていたことを、Lv.1〜3で勉強してきた理論やイメージを実装する形で理解する内容です。) | | @sato-san |
