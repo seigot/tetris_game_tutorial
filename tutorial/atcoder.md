@@ -40,9 +40,13 @@ AI(特に強化学習)を使う練習として、何かお勧めがあれば追�
 | 【深層学習】ディープラーニングとは関数近似器である【ディープラーニングの世界 vol. 1 】 |  | https://www.youtube.com/watch?v=SyWwoMpP_P4 | - | @bushio |
 
 ### 参考URL
-[深層強化学習と活用するためのコツ（eward_clipping については下記資料のP27 が参考になるかも）](https://www.ieice.org/~prmu/jpn/ieice/2018/dt_01_004s.pdf)
 
-論文
+|  問題  |  URL  |  概要  |  備考  |  リスペクト元  |
+| ---- | ---- | ---- | ---- | ---- |
+| [深層強化学習と活用するためのコツ（reward_clipping については下記資料のP27 が参考になるかも）](https://www.ieice.org/~prmu/jpn/ieice/2018/dt_01_004s.pdf) | https://openreview.net/pdf?id=8TLyqLGQ7Tg | [MLPのベース論文](https://www.ieice.org/~prmu/jpn/ieice/2018/dt_01_004s.pdf) | - | @bushio |
+
+
+### 論文
 
 |  問題  |  URL  |  概要  |  備考  |  リスペクト元  |
 | ---- | ---- | ---- | ---- | ---- |
