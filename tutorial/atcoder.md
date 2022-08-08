@@ -20,11 +20,13 @@ pythonを使う練習として、Atcoderの過去問を解くことをオスス�
 |  ABC241 C問題  |  https://atcoder.jp/contests/abc241/tasks/abc241_c  |  二次元配列を扱えれば解ける問題  |  @EndoNrak  |
 |  ABC241 F問題  |  https://atcoder.jp/contests/abc241/tasks/abc241_f  |  幅優先探索がわかって、頑張れば解ける問題  |  @EndoNrak  |
 
-# AI練習
+# AI関係資料
 
 AI(特に強化学習)を使う練習として、何かお勧めがあれば追加予定です。  
 
 ※順次追加
+
+### 勉強用
 
 |  問題  |  URL  |  概要  |  備考  |  リスペクト元  |
 | ---- | ---- | ---- | ---- | ---- |
