@@ -204,6 +204,9 @@ pythonはプログラミング言語の１つです。<br>
 <br>
 [おまけ:PythonでFizz Buzz書いてみた](https://qiita.com/Sekky0905/items/7e2b13f2a001384c7fc4)<br>
 その他、詳しくは参考サイトを参照下さい。<br>
+<br>
+上記の文法の練習として以下の問題（atcoder beginners selection）を解くと良いかもしれません。<br>
+[https://atcoder.jp/contests/abs](https://atcoder.jp/contests/abs)<br>
 
 #### 参考
 [【初心者向け】無料でPythonの基本文法を5時間で学ぼう！](https://qiita.com/AI_Academy/items/b97b2178b4d10abe0adb)<br>
